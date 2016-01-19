@@ -1,11 +1,12 @@
 {
-  "name": "bigquery",
-  "version": "0.0.4",
-  "repository":
-   { "type": "git",
-     "url": "https://github.com/peihsinsu/bigquery.git" },
-  "author": "peihsinsu",
-  "contributor": "Andrew Boshardy",
+  "name": "google-bigquery",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexmarch/google-bigquery"
+  },
+  "author": "",
+  "contributor": "Marchenko Aleksander",
   "dependencies": {
     "google-api-utility": "*",
     "nodeutil": "0.0.29",

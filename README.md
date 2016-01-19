@@ -1,4 +1,4 @@
-# bigquery
+# google-bigquery
 
 This is a simple sdk for using google bigquery. Still working... if any problem, please let me know.
 Want to know what is BigQuery? Look my slide: http://www.slideshare.net/peihsinsu/google-bigquery-introduction
@@ -6,7 +6,7 @@ Want to know what is BigQuery? Look my slide: http://www.slideshare.net/peihsins
 ## Installation
 
 ```
-npm install bigquery
+npm install google-bigquery
 ```
 
 ## Apply service account
@@ -30,7 +30,7 @@ openssl pkcs12 -in privatekey.p12 -nodes -nocerts > key.pem
 Load bigquery lib, specify your project id then setup the service account and the client_secret.json file path, pem key file path for auth use.
 
 ```
-var bq = require('bigquery')
+var bq = require('google-bigquery')
   , fs = require('fs')
   , prjId = 'your-bigquery-project-id'; //you need to modify this
 
