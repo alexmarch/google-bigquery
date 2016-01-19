@@ -1,11 +1,11 @@
 {
-  "name": "google-bigquery",
-  "version": "0.0.0",
+  "name": "googlebigquery",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/alexmarch/google-bigquery"
   },
-  "author": "",
+  "author": "maappdev",
   "contributor": "Marchenko Aleksander",
   "dependencies": {
     "google-api-utility": "*",
